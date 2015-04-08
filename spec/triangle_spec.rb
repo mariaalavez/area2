@@ -1,14 +1,12 @@
-require_relative '../spec_helper'
-require_relative '../Area/triangle'
+require_relative '../triangle'
 
 describe "Triangle" do
 
   before :each do
     @triangle = Triangle.new(5, 4)
-    t_area = @triangle.area
   end
 
   it "has area 10" do
-    expect(t_a).to eq 10
+    expect(@triangle.area).to eq 10
   end
 end

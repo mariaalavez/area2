@@ -1,4 +1,4 @@
-
+require './shape'
 
 class Triangle < Shape
 
